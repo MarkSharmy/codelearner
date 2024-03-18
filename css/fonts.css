@@ -1,0 +1,17 @@
+* {
+    font-family: Nunito, Poppins, Verdana, sans-serif;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+html {
+      font-size: 62.5%;
+      overflow-x: hidden;
+}
+
+.header .flex .logo {
+    font-size: 2.5rem;
+    color: var(--black);
+    font-weight: bolder;
+}

@@ -1,0 +1,14 @@
+.header .flex .search-form {
+    width: 40rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+    gap: 1.5rem;
+}
+
+.header .flex .search-form input {
+    width: 100%;
+    background: none;
+    font-size: 1.8rem;
+}

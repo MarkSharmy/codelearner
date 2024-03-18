@@ -1,0 +1,45 @@
+:root {
+    --main-color: #8e44ad;
+    --red: #e74c3c;
+    --orange: #f39c12;
+    --white: #fff;
+    --black: #2c3e50;
+    --light-color: #888;
+    --light-bg: #eee;
+    --border: 0.1rem solid rgba(0, 0, 0, 0.2);
+
+}
+
+*::selection {
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+*::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--main-color);
+}
+
+body {
+    background-color: var(--light-bg);
+}
+
+.header {
+    background-color: var(--white);
+    border-bottom: var(--border);
+}
+
+.header-icon {
+    background: none;
+}
+
+.header .flex .search-form {
+    background-color: var(--light-bg);
+}
+
+.header .flex .search-form input {
+    color: var(--black);
+}
