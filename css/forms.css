@@ -1,14 +1,25 @@
+@import url(colors.css);
+
 .header .flex .search-form {
-    width: 40rem;
+    width: 50rem;
     border-radius: 0.5rem;
     display: flex;
     align-items: center;
-    padding: 1rem 2rem;
     gap: 1.5rem;
+    padding: 1rem 2rem;
+    background-color: var(--light-bg);
 }
 
 .header .flex .search-form input {
     width: 100%;
     background: none;
-    font-size: 1.8rem;
+    font-size: 2rem;
+    color: var(--black);
+}
+
+.header .flex .search-form button {
+    font-size: 2rem;
+    color: var(--black);
+    cursor: pointer;
+    background: none;
 }

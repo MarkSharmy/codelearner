@@ -35,11 +35,3 @@ body {
 .header-icon {
     background: none;
 }
-
-.header .flex .search-form {
-    background-color: var(--light-bg);
-}
-
-.header .flex .search-form input {
-    color: var(--black);
-}
