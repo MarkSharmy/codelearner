@@ -35,3 +35,13 @@ body {
 .header-icon {
     background: none;
 }
+
+.header .flex .icons div {
+    color: var(--black);
+    background-color: var(--light-bg);
+}
+
+.header .flex .icons div:hover {
+    color: var(--white);
+    background-color: var(--black);
+}

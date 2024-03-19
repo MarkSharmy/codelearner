@@ -18,3 +18,9 @@ html {
     color: var(--black);
     font-weight: bolder;
 }
+
+.header .flex .icons div {
+    font-size: 2rem;
+    line-height: 4.4rem;
+    text-align: center;
+}

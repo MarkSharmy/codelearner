@@ -39,7 +39,17 @@ section {
     justify-content: space-between;
 }
 
+.header .flex .icons div {
+    border-radius: 0.5rem;
+    height: 4.5rem;
+    width: 4.5rem;
+    cursor: pointer;
+    margin-left: 0.5rem;
+}
 
+#search-btn {
+    display: none;
+}
 
 
 
